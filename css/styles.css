@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    position: relative;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.col-lg-6 {
+    padding: 0;
+}
+
+.dl-btn {
+    margin: 5% 3% 5% 0;
+}
+
+#titleText {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    margin: 20px 0;
+}
+
+#title-img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+}
+
+#features .col-lg-4 {
+    padding: 5%;
+}
+
+#features i {
+    color: #ef8172;
+    font-size: 4rem;
+    margin: 5% 0 1rem;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+#features h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 5% 0;
+}
+
+#features p {
+    color: #8f8f8f;
+    margin: 0 0 5%;
+    font-size: 0.8rem;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#testimonials .carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+#pricing .card {
+    /* max-width: 18rem; */
+    text-align: center;
+    margin: auto;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#pricing h2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+#pricing h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 5% 0;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer i {
+    margin: 1rem;
+}
+
+@media (max-width: 1028px) {
+    #title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
